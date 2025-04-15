@@ -83,6 +83,7 @@ A análise financeira compara duas políticas:
 O resultados mostram que a nova política mantém o volume de crédito concedido, porém reduz significativamente a inadimplência, gerando uma economia financeira expressiva.
 
 ## Escoragem da base Out-of-time
+
 Ao final do projeto, geramos também previsões para uma base de dados cega (out-of-time - oot), com o resultado sendo guardado em um CSV na pasta "dados".
 
 ## Como Executar
