@@ -90,8 +90,8 @@ Ao final do projeto, geramos também previsões para uma base de dados cega (out
 
 1. **Clone o Repositório**:
     ```bash
-    git clone https://github.com/seu-usuario/projeto-credito.git
-    cd projeto-credito
+    git clone https://github.com/naomyduarteg/Projeto_Neurotech.git
+    cd Projeto_Neurotech
     ```
 
 2. **Instale as Dependências**:
