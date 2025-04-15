@@ -1,8 +1,6 @@
 # Projeto 1: desenvolver um modelo de concessão de crédito
 
 
-# Projeto de Previsão e Avaliação de Risco de Crédito
-
 Este projeto utiliza técnicas de Machine Learning para prever o risco de crédito dos clientes e, a partir dos resultados, propor uma nova política de crédito que minimize as perdas financeiras. O objetivo é comparar a política atual, baseada em uma regra simples de idade, com uma nova política fundamentada num modelo de score (LGBM) que avalia a propensão de pagamento (bom pagador).
 
 ## Sumário
@@ -16,8 +14,8 @@ Este projeto utiliza técnicas de Machine Learning para prever o risco de crédi
   - [Comparação de Modelos](#comparação-de-modelos)
   - [Modelo Selecionado: LGBM](#modelo-selecionado-lgbm)
 - [Análise Financeira](#análise-financeira)
+- [Escoragem da base Out-of-time](#escoragem)
 - [Como Executar](#como-executar)
-- [Requisitos](#requisitos)
 - [Licença](#licença)
 
 ## Motivação
@@ -82,7 +80,10 @@ A análise financeira compara duas políticas:
     - Dívida Total TO-BE: R\$ 761.000,00  
     - Economia Estimada: R\$ 260.000,00
 
-O resultados mostarm que a nova política mantém o volume de crédito concedido, porém reduz significativamente a inadimplência, gerando uma economia financeira expressiva.
+O resultados mostram que a nova política mantém o volume de crédito concedido, porém reduz significativamente a inadimplência, gerando uma economia financeira expressiva.
+
+## Escoragem da base Out-of-time
+Ao final do projeto, geramos também previsões para uma base de dados cega (out-of-time - oot), com o resultado sendo guardado em um CSV na pasta "dados".
 
 ## Como Executar
 
